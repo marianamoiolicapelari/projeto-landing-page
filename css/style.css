@@ -1,3 +1,4 @@
-.main {
-    background-color: blueviolet;
+:root {
+    --degrade-color: linear-gradient(45deg, #2937f0, #9f1ae2)
+
 }
