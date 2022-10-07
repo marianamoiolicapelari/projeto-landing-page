@@ -2,6 +2,10 @@
     background: linear-gradient(45deg, #2937f0, #9f1ae2);
 }
 
+.text-gradient-color {
+    color: linear-gradient(45deg, #2937f0, #9f1ae2);
+}
+
 .btn-primary {
     background: #2937f0;
 }
@@ -12,7 +16,11 @@
 }
 
 .padding { 
-    padding: 3rem;
+    padding: 4rem;
+}
+
+.padding-img {
+    padding: 8rem;
 }
 
 .kanit {
@@ -28,7 +36,7 @@
 }
 
 .size-title {
-    font-size: 5rem;
+    font-size: 4.8rem;
 }
 
 .size-sub-title {
@@ -36,11 +44,11 @@
 }
 
 .size-title-circle {
-    font-size: 4rem;
+    font-size: 3.4rem;
 }
 
 .size-sub-title-circle {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 

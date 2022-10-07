@@ -19,20 +19,22 @@
 </head>
 
 <body>
-    <nav class="navbar-ligth navbar-expand-lg fixed-top shadow-sm bg-body" id="navbar">
-        <div class="container d-flex justify-content-between py-3">
-            <a href="#" class="container navbar-brand text-dark fw-bold">Start Bootstrap</a>
+    <nav class="navbar navbar-expand-lg fixed-top shadow-sm bg-body">
+        <div class="p-3 ">
+            <a href="#" class="navbar-brand text-dark fw-bold">Start Bootstrap</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="bi-list"></i>
             </button>
-            <div class="collapse navbar-collapse " id="navbar-items">
+        </div>
+        <div>
+            <div class="collapse navbar-collapse " id="navbarResponsive">
                 <ul class="nav me-auto mb-3 mb-lg-0 ">
                     <li class="nav-item ">
-                        <a href="#" class="nav-link active text-dark" aria-current="page">Features</a>
+                        <a href="#features" class="nav-link active text-dark" aria-current="page">Features</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link text-dark">Downloads</a>
+                        <a href="#download" class="nav-link text-dark">Downloads</a>
                     </li>
                     <li class="nav-item">
                         <button type="button" class="btn btn-primary rounded-pill">
@@ -41,9 +43,10 @@
                 </ul>
             </div>
         </div>
+        </div>
     </nav>
 
-    <div class="container-expand padding-principal">
+    <div class="container-expand padding-principal bg-light">
         <div class="container d-flex padding-principal">
             <div class="col-12 d-flex justify-content-between">
                 <div class="container">
@@ -54,15 +57,19 @@
                             Bootstrap!
                         </p>
                     </div>
-                    <div class="row">
-                        <img src="./assets/img/google-play-badge.svg" class="rounded float-end" style="width: 12rem"
-                            alt="">
-                        <img src="./assets/img/app-store-badge.svg" class="rounded float-end" style="width: 12rem"
-                            alt="">
+                    <div class="pb-3">
+                        <a href="#">
+                            <img src="./assets/img/google-play-badge.svg" class="card-img-bottom" style="width: 10rem"
+                                alt="...">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/img/app-store-badge.svg" class="card-img-bottom" style="width: 10rem"
+                                alt="...">
+                        </a>
                     </div>
                 </div>
                 <div class="container">
-                    <img src="./assets/img/portrait_black.png" class="rounded float-end" style="width: 16rem" alt="">
+                    <img src="./assets/img/portrait_black.png" class="rounded float-end" style="width: 14rem" alt="">
                 </div>
             </div>
         </div>
@@ -76,33 +83,37 @@
             <img src="./assets/img/tnw-logo.svg" class="card-img-bottom" style="width: 8rem" alt="...">
         </div>
 
-        <div class="container row d-flex align-items-center text-center ">
-            <div class="container col-12 col-md-4 p-5 ">
-                <img src="./assets/img/portrait_black.png" class="rounded float-start" style="width: 16rem" alt="...">
+        <div class="container-fluid d-flex align-items-center text-center" id="features">
+            <div class="container col-12 col-md-4 p-5">
+                <img src="./assets/img/portrait_black.png" style="width: 14rem" alt="...">
             </div>
             <div class="container col-12 col-md-8 d-flex">
                 <div class="container d-flex row ">
-                    <div class="container col-md-4">
-                        <i class="bi bi-phone primary-color"></i>
-                        <h3 class="card-title">Device Mockups</h5>
-                            <p class="card-text">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
-                    </div>
-                    <div class="container col-md-4">
-                        <i class="bi bi-camera primary-color"></i>
-                        <h3 class="card-title">Flexible Use</h5>
-                            <p class="card-text">Put an image, video, animation, or anything else in the screen!</p>
+
+                    <div class="container row mb-5">
+                        <div class="container col-md-4">
+                            <i class="bi bi-phone "></i>
+                            <h3>Device Mockups</h5>
+                                <p>Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+                        </div>
+                        <div class="container col-md-4">
+                            <i class="bi bi-camera"></i>
+                            <h3>Flexible Use</h5>
+                                <p>Put an image, video, animation, or anything else in the screen!</p>
+                        </div>
                     </div>
 
-                    <div class="container row "></div>
-                    <div class="container col-md-4">
-                        <i class="bi bi-gift primary-color"></i>
-                        <h3 class="card-title">Free to Use</h5>
-                            <p class="card-text">As always, this theme is free to download and use for any purpose!</p>
-                    </div>
-                    <div class="container col-md-4">
-                        <i class="bi bi-patch-check primary-color"></i>
-                        <h3 class="card-title">Open Source</h5>
-                            <p class="card-text">Since this theme is MIT licensed, you can use it commercially!</p>
+                    <div class="container row ">
+                        <div class="container col-md-4">
+                            <i class="bi bi-gift "></i>
+                            <h3>Free to Use</h5>
+                                <p>As always, this theme is free to download and use for any purpose!</p>
+                        </div>
+                        <div class="container col-md-4">
+                            <i class="bi bi-patch-check"></i>
+                            <h3>Open Source</h5>
+                                <p>Since this theme is MIT licensed, you can use it commercially!</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -110,59 +121,71 @@
 
     </div>
 
-    <div class="container-expand padding col-12 row align-items-center">
-        <div class="container col-6">
-            <h5 class="card-title newsreader size-title-circle">Enter a new age of web design</h5>
-            <p class="card-text size-sub-title-circle text-secondary">This section is perfect for featuring some
-                information about your application, why
-                it was built, the problem it solves, or anything else! There's plenty of space for text here, so
-                don't worry about writing too much.</p>
-        </div>
-        <div class="container col-6">
-            <img src="./assets/img/circle.jpg" class="img-fluid rounded-circle" style="width: 40vw" alt="...">
+    <div class=" bg-light ">
+        <div class="container d-flex justify-content-between align-items-center padding">
+            <div class="padding">
+                <h5 class=" newsreader size-title-circle">Enter a new age of web design</h5>
+                <p class="card-text size-sub-title-circle text-secondary">This section is perfect for featuring some
+                    information about your application, why
+                    it was built, the problem it solves, or anything else! There's plenty of space for text here, so
+                    don't worry about writing too much.</p>
+            </div>
+            <div class="padding">
+                <img src="./assets/img/circle.jpg" class="img-fluid rounded-circle" style="width: 100vw" alt="...">
+            </div>
         </div>
     </div>
 
-    <div class="card container-fluid d-flex align-items-left padding"
+    <div class="container-fluid align-items-left padding-img"
         style="background-image: url('./assets/img/background.png'); background-size: 100%">
-
-        <div class="card-body">
-            <h2 class="card-title text-left size-title text-white newsreader">Stop waiting.</br>
+        <div class="container">
+            <h2 class=" text-left size-title text-white newsreader">Stop waiting.</br>
                 Start building.</h2>
         </div>
-        <div class="card-body p-5">
-            <button type="button" class="btn btn-outline-light rounded-pill btn-lg"></i>Download for free</button>
-        </div>
-    </div>
-
-    <div class="card container-fluid d-flex align-items-center bg-gradient-color padding ">
-        <div class="card-body">
-            <h2 class="card-title text-left text-white"><strong>Get the app now!</strong></h2>
-        </div>
-        <div class="card-body">
-            <img src="./assets/img/google-play-badge.svg" class="card-img-bottom" style="width: 10rem" alt="...">
-            <img src="./assets/img/app-store-badge.svg" class="card-img-bottom" style="width: 10rem" alt="...">
-        </div>
-    </div>
-
-    <div class="card-footer container-fluid bg-dark">
         <div class="container">
-            <p class="card-title text-white">© Your Website 2022. All Rights Reserved.</p>
+            <a class="btn btn-outline-light py-3 px-4 rounded-pill" href="https://startbootstrap.com/theme/new-age"
+                target="_blank">Download for free</a>
+        </div>
+    </div>
+
+    <div class="card container-fluid d-flex align-items-center bg-gradient-color padding" id="download">
+        <div>
+            <h2 class="card-title text-left text-white pb-3"><strong>Get the app now!</strong></h2>
+        </div>
+        <div>
+            <a href="#">
+                <img src="./assets/img/google-play-badge.svg" class="card-img-bottom" style="width: 10rem" alt="...">
+            </a>
+            <a href="#">
+                <img src="./assets/img/app-store-badge.svg" class="card-img-bottom" style="width: 10rem" alt="...">
+            </a>
+        </div>
+    </div>
+
+    <div class="bg-dark text-center p-3 text-white-50">
+        <div class="container">
+            <div>
+                <p>© Your Website 2022. All Rights Reserved.</p>
+            </div>
+            <div class="container d-flex flex-direction-columm justify-content-center">
+                <div>
+                    <a href="#" class="text-white-50 text-decoration-none">Privacy</a>
+                </div>
+                <div>
+                    <p class="text-white mx-1">.</p>
+                </div>
+                <div>
+                    <a href="#" class="text-white-50 text-decoration-none">Terms</a>
+                </div>
+                <div>
+                    <p class="text-white mx-1">.</p>
+                </div>
+                <div>
+                    <a href="#" class="text-white-50 text-decoration-none">FAQ</a>
+                </div>
+            </div>
         </div>
 
-        <div class="card-body">
-            <ul>
-                <li>
-                    <a href="#" class="active secondary-color" aria-current="page">Privacy</a>
-                </li>
-                <li>
-                    <a href="#" class="secondary-color">Terms</a>
-                </li>
-                <li>
-                    <a href="#" class="secondary-color">FAQ</a>
-                </li>
-            </ul>
-        </div>
     </div>
 </body>
 
