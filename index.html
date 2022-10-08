@@ -19,16 +19,16 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top shadow-sm bg-body">
-        <div class="p-3 ">
-            <a href="#" class="navbar-brand text-dark fw-bold">Start Bootstrap</a>
+    <nav class="navbar navbar-expand-lg fixed-top shadow-sm d-flex justify-content-around bg-light">
+        <div class=" p-3">
+            <a href="#" class="navbar-brand text-dark fw-bold px-5">Start Bootstrap</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="bi-list"></i>
             </button>
         </div>
         <div>
-            <div class="collapse navbar-collapse " id="navbarResponsive">
+            <div class=" container collapse navbar-collapse" id="navbarResponsive">
                 <ul class="nav me-auto mb-3 mb-lg-0 ">
                     <li class="nav-item ">
                         <a href="#features" class="nav-link active text-dark" aria-current="page">Features</a>
@@ -43,7 +43,7 @@
                 </ul>
             </div>
         </div>
-        </div>
+
     </nav>
 
     <div class="container-expand padding-principal bg-light">
@@ -59,8 +59,8 @@
                     </div>
                     <div class="pb-3">
                         <a href="#">
-                            <img src="./assets/img/google-play-badge.svg" class="card-img-bottom" style="width: 10rem"
-                                alt="...">
+                            <img src="./assets/img/google-play-badge.svg" class="card-img-bottom w-40"
+                                style="width: 10rem" alt="...">
                         </a>
                         <a href="#">
                             <img src="./assets/img/app-store-badge.svg" class="card-img-bottom" style="width: 10rem"
@@ -69,69 +69,72 @@
                     </div>
                 </div>
                 <div class="container">
-                    <img src="./assets/img/portrait_black.png" class="rounded float-end" style="width: 14rem" alt="">
+                    <img src="./assets/img/portrait_black.png" class="img-fluid float-end w-50" alt="">
+                    
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="card p-5 bg-gradient-color text-white d-flex align-items-center">
-            <div class="card-body ">
-                <h2 class="card-title text-center newsreader size-sub-title " class="mx-auto" style="width: 50vw">"An
-                    intuitive solution to a common problem that we all face, wrapped
-                    up in a single app!"</h2>
-            </div>
-            <img src="./assets/img/tnw-logo.svg" class="card-img-bottom" style="width: 8rem" alt="...">
+    <div class="card p-5 bg-gradient-color text-white d-flex align-items-center">
+        <div class="card-body ">
+            <h2 class="card-title text-center newsreader size-sub-title " class="mx-auto" style="width: 50vw">"An
+                intuitive solution to a common problem that we all face, wrapped
+                up in a single app!"</h2>
         </div>
+        <img src="./assets/img/tnw-logo.svg" class="card-img-bottom" style="width: 8rem" alt="...">
+    </div>
 
-        <div class="container-fluid d-flex align-items-center text-center" id="features">
-            <div class="container col-12 col-md-4 p-5">
-                <img src="./assets/img/portrait_black.png" style="width: 14rem" alt="...">
-            </div>
-            <div class="container col-12 col-md-8 d-flex">
-                <div class="container d-flex row ">
+    <div class="container-fluid d-flex align-items-center text-center bg-light" p-5 id="features">
+        <div class="container col-12 col-md-4 p-5">
+            <img src="./assets/img/portrait_black.png" style="width: 14rem" alt="...">
+        </div>
+        <div class="container col-12 col-md-8 d-flex">
+            <div class="container d-flex row ">
 
-                    <div class="container row mb-5">
-                        <div class="container col-md-4">
-                            <i class="bi bi-phone "></i>
-                            <h3>Device Mockups</h5>
-                                <p>Ready to use HTML/CSS device mockups, no Photoshop required!</p>
-                        </div>
-                        <div class="container col-md-4">
-                            <i class="bi bi-camera"></i>
-                            <h3>Flexible Use</h5>
-                                <p>Put an image, video, animation, or anything else in the screen!</p>
-                        </div>
+                <div class="container row mb-5">
+                    <div class="container col-md-4">
+                        <i class="bi bi-phone i-glyphicon"></i>
+                        <h3 class="fw-bold">Device Mockups</h5>
+                            <p class="text-secondary">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
                     </div>
+                    <div class="container col-md-4">
+                        <i class="bi bi-camera i-glyphicon"></i>
+                        <h3 class="fw-bold">Flexible Use</h5>
+                            <p class="text-secondary">Put an image, video, animation, or anything else in the screen!
+                            </p>
+                    </div>
+                </div>
 
-                    <div class="container row ">
-                        <div class="container col-md-4">
-                            <i class="bi bi-gift "></i>
-                            <h3>Free to Use</h5>
-                                <p>As always, this theme is free to download and use for any purpose!</p>
-                        </div>
-                        <div class="container col-md-4">
-                            <i class="bi bi-patch-check"></i>
-                            <h3>Open Source</h5>
-                                <p>Since this theme is MIT licensed, you can use it commercially!</p>
-                        </div>
+                <div class="container row ">
+                    <div class="container col-md-4">
+                        <i class="bi bi-gift i-glyphicon"></i>
+                        <h3 class="fw-bold">Free to Use</h5>
+                            <p class="text-secondary">As always, this theme is free to download and use for any purpose!
+                            </p>
+                    </div>
+                    <div class="container col-md-4">
+                        <i class="bi bi-patch-check i-glyphicon text-gradient-color"></i>
+                        <h3 class="fw-bold">Open Source</h5>
+                            <p class="text-secondary">Since this theme is MIT licensed, you can use it commercially!</p>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
     </div>
 
-    <div class=" bg-light ">
+    <div>
         <div class="container d-flex justify-content-between align-items-center padding">
-            <div class="padding">
-                <h5 class=" newsreader size-title-circle">Enter a new age of web design</h5>
-                <p class="card-text size-sub-title-circle text-secondary">This section is perfect for featuring some
-                    information about your application, why
-                    it was built, the problem it solves, or anything else! There's plenty of space for text here, so
-                    don't worry about writing too much.</p>
+            <div class="container">
+                <h5 class="newsreader size-title-circle me-5">Enter a new age of web design</h5>
+                <p class="text-secondary size-sub-title-circle me-5">This section is perfect for featuring some
+                    information about your application, why it was built, the problem it solves, or anything else!
+                    There's plenty of space for text here, so don't worry about writing too much.</p>
             </div>
-            <div class="padding">
-                <img src="./assets/img/circle.jpg" class="img-fluid rounded-circle" style="width: 100vw" alt="...">
+            <div class="container">
+                <img src="./assets/img/circle.jpg" class="img-fluid rounded-circle w-100" alt="...">
             </div>
         </div>
     </div>

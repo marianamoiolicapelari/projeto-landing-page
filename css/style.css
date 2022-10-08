@@ -2,10 +2,6 @@
     background: linear-gradient(45deg, #2937f0, #9f1ae2);
 }
 
-.text-gradient-color {
-    color: linear-gradient(45deg, #2937f0, #9f1ae2);
-}
-
 .btn-primary {
     background: #2937f0;
 }
@@ -15,7 +11,7 @@
     padding-bottom: 2rem;
 }
 
-.padding { 
+.padding {
     padding: 4rem;
 }
 
@@ -27,7 +23,7 @@
     font-family: 'Kanit', sans-serif;
 }
 
-.mulish { 
+.mulish {
     font-family: 'Mulish', sans-serif;
 }
 
@@ -44,18 +40,22 @@
 }
 
 .size-title-circle {
-    font-size: 3.4rem;
+    font-size: 3.7rem;
 }
 
 .size-sub-title-circle {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
-
 
 .size-paragraph {
     font-size: 1.4rem;
     padding: 1rem;
 }
 
-
+.i-glyphicon {
+    font-size: 4rem;
+    background: -webkit-linear-gradient(#9c47fc, #356ad2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
