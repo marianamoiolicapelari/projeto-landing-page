@@ -1,8 +1,9 @@
 body {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
    
+
 }
 
 .wrapper {
@@ -16,12 +17,13 @@ body {
     position: fixed;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100vw;
     background-color: #FFF;
     font-family: 'Mulish', sans-serif;
     padding: 1.8rem;
-    
+   
+
 }
 
 .wrapper #navbar .navbar-left {
@@ -30,23 +32,24 @@ body {
 }
 
 .wrapper #navbar .navbar-rigth {
-    display: inline-flex;
-    width: 30%;
-    justify-content: space-around;
+  
+    
     background-color: aliceblue;
 
-    
+
 }
 
 .wrapper #navbar .navbar-rigth-ul {
     display: inline-flex;
     list-style-type: none;
     
+    
+
 }
 
-.wrapper #navbar .navbar-rigth-ul .navbar-rigth-ul a {
+.wrapper #navbar .navbar-rigth-ul a {
     text-decoration: none;
-   
+
 }
 
 /*-------------------------------------------------------*/
@@ -54,19 +57,15 @@ body {
 .wrapper #main {
     display: flex;
     flex-direction: row;
-   
-    /* background-color: #f8f9fa; */
-    background-color: #6c757d;
-    width: 80vw;
+    background-color: #f8f9fa;
     padding-top: 10rem;
-   
 }
 
 
 .wrapper #main .main-left {
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .wrapper #main .main-left .main-left-title h1 {
@@ -80,28 +79,140 @@ body {
     color: #6c757d
 }
 
+/*------------------------------------------------*/
 
-
-
-.bg-gradient-color {
+.wrapper #first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: linear-gradient(45deg, #2937f0, #9f1ae2);
+    padding: 3rem;
 }
+
+.wrapper #first-section .first-section-text {
+    font-family: 'Newsreader', serif;
+    font-size: 2rem;
+    color: #FFF;
+}
+
+
+/*------------------------------------------------*/
+
+.wrapper #features {
+    display: flex;
+    background-color: #6c757d;
+   
+}
+
+/*------------------------------------------------*/
+
+.wrapper #second-section {
+    display: flex;
+    background-color: #608cb3;
+    
+}
+
+/*------------------------------------------------*/
+
+.wrapper #third-section {
+    display: flex;
+    flex-direction: column;
+    background: #000 url("../assets/img/background.png") no-repeat;
+    background-size: cover;
+    padding: 6rem;
+    
+}
+
+/*------------------------------------------------*/
+
+.wrapper #third-section .third-section-text {
+    font-family: 'Newsreader', serif;
+    color: #FFF;
+    font-size: 2.5rem;
+}
+
+/*------------------------------------------------*/
+
+.wrapper #third-section .third-section-btn {
+    font-family: 'Newsreader', serif;
+    color: #FFF;
+    font-size: 2.5rem;
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+    background-color: none;
+    font-family: 'Mulish', sans-serif;
+    padding: 1rem;
+    border-radius: 2rem;
+   
+}
+
+/*------------------------------------------------*/
+
+.wrapper #download {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(45deg, #2937f0, #9f1ae2);
+   
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+/*------------------------------------------------*/
+
+.wrapper #download .download-text {
+    color: #FFF;
+    font-size: 1.3rem;
+    font-family: 'Kanit', sans-serif;
+}
+
+/*------------------------------------------------*/
+
+.wrapper #footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: #000;
+    padding: 2rem;
+    font-family: 'Mulish', sans-serif;
+    
+}
+
+/*------------------------------------------------*/
+
+.wrapper #footer .footer-text {
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 0%;
+
+}
+
+
+/*------------------------------------------------*/
+
+.wrapper #footer .footer-links {
+    display: inline-flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 0%;
+   
+}
+
+/*------------------------------------------------*/
+
+.wrapper #footer .footer-links a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 0.6rem;
+    
+}
+
+
+
+
 
 .btn-primary {
     background: #2937f0;
-}
-
-.padding-principal {
-    padding-top: 5rem;
-    padding-bottom: 2rem;
-}
-
-.padding {
-    padding: 4rem;
-}
-
-.padding-img {
-    padding: 8rem;
 }
 
 .kanit {
@@ -115,26 +226,4 @@ body {
 .newsreader {
     font-family: 'Newsreader', serif;
 }
-
-.size-title {
-    font-size: 4.8rem;
-}
-
-.size-sub-title {
-    font-size: 2.5rem;
-}
-
-.size-title-circle {
-    font-size: 3.7rem;
-}
-
-.size-sub-title-circle {
-    font-size: 1.4rem;
-}
-
-.size-paragraph {
-    font-size: 1.4rem;
-    padding: 1rem;
-}
-
 
