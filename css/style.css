@@ -1,3 +1,88 @@
+body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100ww;
+    height: auto;
+}
+
+.wrapper #navbar {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    background-color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    padding: 1.8rem;
+    
+}
+
+.wrapper #navbar .navbar-left {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.wrapper #navbar .navbar-rigth {
+    display: inline-flex;
+    width: 30%;
+    justify-content: space-around;
+    background-color: aliceblue;
+
+    
+}
+
+.wrapper #navbar .navbar-rigth-ul {
+    display: inline-flex;
+    list-style-type: none;
+    
+}
+
+.wrapper #navbar .navbar-rigth-ul .navbar-rigth-ul a {
+    text-decoration: none;
+   
+}
+
+/*-------------------------------------------------------*/
+
+.wrapper #main {
+    display: flex;
+    flex-direction: row;
+   
+    /* background-color: #f8f9fa; */
+    background-color: #6c757d;
+    width: 80vw;
+    padding-top: 10rem;
+   
+}
+
+
+.wrapper #main .main-left {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.wrapper #main .main-left .main-left-title h1 {
+    font-family: 'Newsreader', serif;
+    font-size: 4rem;
+}
+
+.wrapper #main .main-left .main-left-title p {
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.8rem;
+    color: #6c757d
+}
+
+
+
+
 .bg-gradient-color {
     background: linear-gradient(45deg, #2937f0, #9f1ae2);
 }
@@ -52,10 +137,4 @@
     padding: 1rem;
 }
 
-.i-glyphicon {
-    font-size: 4rem;
-    background: -webkit-linear-gradient(#9c47fc, #356ad2);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
