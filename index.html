@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -18,22 +19,24 @@
 <body>
     <div class="wrapper">
         <div id="navbar">
-            <div class="navbar-left">
-                <a>Start Bootstrap</a>
-            </div>
+            <div class="navbar-main">
+                <div class="navbar-left">
+                    <a>Start Bootstrap</a>
+                </div>
 
-            <div class="navbar-rigth">
-                <ul class="navbar-rigth-ul">
-                    <li><a href="#features">Features</a>
-                    </li>
-                    <li>
-                        <a href="#download">Downloads</a>
-                    </li>
-                    <li>
-                        <button type="button" id="btn-navbar">
-                            <i class=""></i>Send Feedback</button>
-                    </li>
-                </ul>
+                <div class="navbar-rigth">
+                    <ul class="navbar-rigth-ul">
+                        <li><a href="#features">Features</a>
+                        </li>
+                        <li>
+                            <a href="#download">Downloads</a>
+                        </li>
+                        <li>
+                            <button type="button" id="btn-navbar">
+                                <i class="fa-sharp fa-solid fa-comment-lines"></i>Send Feedback</button>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
 
@@ -57,9 +60,10 @@
                     </a>
                 </div>
             </div>
-            <div class="main right">
-                <img src="./assets/img/portrait_black.png" width="350rem" alt="">
-
+            <div class="main-right">
+                <video class="main-right-mp4" src="./assets/img/demo-screen.mp4" type="video/mp4"></video>
+                <img class="main-right-img" src="./assets/img/portrait_black.png" alt="">
+                <div class="main-right-circle"></div>
             </div>
         </div>
 
@@ -68,54 +72,53 @@
                 <h2>"An intuitive solution to a common problem that we all face, wrapped
                     up in a single app!"</h2>
             </div>
-            <img src="./assets/img/tnw-logo.svg" width="200rem" alt="...">
+            <img class="first-section-img" src="./assets/img/tnw-logo.svg" alt="...">
         </div>
 
         <div id="features">
-            <div class="features-img">
-                <img src="./assets/img/portrait_black.png" width="200rem" alt="...">
+            <div class="features-itens">
+                <video class="features-mp4" src="./assets/img/demo-screen.mp4" type="video/mp4"></video>
+                <img class="features-img" src="./assets/img/portrait_black.png" alt="...">
             </div>
 
             <div class="features-information">
-                <div>
-                    <div>
-                        <i class="bi bi-phone "></i>
-                        <h3>Device Mockups</h5>
-                            <p>Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+                <div class="features-information-first">
+                    <div class="features-information-first-pc">
+                        <img src="./assets/img/phone.svg" alt="...">
+                        <h3>Device Mockups</h3>
+                        <p>Ready to use HTML/CSS device mockups, no Photoshop required!</p>
                     </div>
                     <div>
-                        <i class="bi bi-camera "></i>
-                        <h3>Flexible Use</h5>
-                            <p>Put an image, video, animation, or anything else in the screen!
-                            </p>
+                        <img src="./assets/img/camera.svg" alt="...">
+                        <h3>Flexible Use</h3>
+                        <p>Put an image, video, animation, or anything else in the screen!</p>
                     </div>
                 </div>
 
-                <div>
-                    <div>
-                        <i class="bi bi-gift"></i>
-                        <h3>Free to Use</h5>
-                            <p>As always, this theme is free to download and use for any purpose!
-                            </p>
+                <div class="features-information-second">
+                    <div class="features-information-first-gp">
+                        <img src="./assets/img/gift.svg" alt="...">
+                        <h3>Free to Use</h3>
+                        <p>As always, this theme is free to download and use for any purpose!</p>
                     </div>
                     <div>
-                        <i class="bi bi-patch-check"></i>
-                        <h3>Open Source</h5>
-                            <p>Since this theme is MIT licensed, you can use it commercially!</p>
+                        <img src="./assets/img/patch-check.svg" alt="...">
+                        <h3>Open Source</h3>
+                        <p>Since this theme is MIT licensed, you can use it commercially!</p>
                     </div>
                 </div>
             </div>
         </div>
 
         <div id="second-section">
-            <div>
+            <div class="second-section-text">
                 <h5>Enter a new age of web design</h5>
                 <p>This section is perfect for featuring some
                     information about your application, why it was built, the problem it solves, or anything else!
                     There's plenty of space for text here, so don't worry about writing too much.</p>
             </div>
-            <div>
-                <img src="./assets/img/circle.jpg" width="200rem" alt="...">
+            <div class="second-section-image">
+                <img class="second-section-image-img" src="./assets/img/circle.jpg" alt="...">
             </div>
         </div>
 
@@ -125,7 +128,8 @@
                     Start building.</h2>
             </div>
             <div>
-                <button class="third-section-btn"><a href="https://startbootstrap.com/theme/new-age" target="_blank">Download for free</a></button>
+                <button class="third-section-btn"><a href="https://startbootstrap.com/theme/new-age"
+                        target="_blank">Download for free</a></button>
             </div>
         </div>
 
