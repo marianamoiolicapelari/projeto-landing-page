@@ -11,6 +11,7 @@
         href="https://fonts.googleapis.com/css2?family=Kanit&family=Mulish:wght@300;500;600;700&family=Newsreader:opsz,wght@6..72,600&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/modal.css">
     <link rel="icon" type="imagem/x-icon" href="./assets/favicon.ico" />
     <title>New Age - Start Bootstrap Theme</title>
 </head>
@@ -31,7 +32,7 @@
                             <a href="#download">Downloads</a>
                         </li>
                         <li>
-                            <button type="button" id="btn-navbar">
+                            <button type="submit" id="btn-navbar">
                                 <i class="fa-solid fa-comment-dots"></i> Send Feedback</button>
                         </li>
                     </ul>
@@ -39,6 +40,22 @@
             </div>
         </div>
 
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <header class="modal-header">
+                    <h2>Send feedback</h2>                 
+                    <i class="modal-close fa-solid fa-xmark"></i>
+                </header>
+                <form id="form" class="modal-form">
+                    <input type="text" id="full-name" data-index="new" class="modal-field" placeholder="Full name"
+                        required>
+                    <input type="email" id="email" class="modal-field" placeholder="Email address" required>
+                    <input type="text" id="phone" class="modal-field" placeholder="Phone number" required>
+                    <input type="textarea" id="message" class="modal-field textarea" placeholder="Message" required>
+                    <button type="submit" id="modal-submit-btn" class="modal-submit-btn">Submit</button>
+                </form>                
+            </div>
+        </div>
 
 
         <div id="main">
@@ -167,7 +184,9 @@
             </div>
         </div>
     </div>
+    
     <script src="https://kit.fontawesome.com/aa1aa89619.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

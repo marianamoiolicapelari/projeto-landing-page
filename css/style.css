@@ -7,7 +7,7 @@ body {
 .wrapper {
     display: flex;
     flex-direction: column;
-    width: 100ww;
+    width: 100vw;
     height: auto;
 }
 
@@ -117,8 +117,8 @@ body {
 
 .wrapper #main .main-right .main-right-img {
     width: 20rem;
-    position: absolute;
-    z-index: 1;
+    /* position: absolute;
+    z-index: 1; */
 
 }
 
@@ -333,21 +333,3 @@ body {
 }
 
 
-
-
-
-.btn-primary {
-    background: #2937f0;
-}
-
-.kanit {
-    font-family: 'Kanit', sans-serif;
-}
-
-.mulish {
-    font-family: 'Mulish', sans-serif;
-}
-
-.newsreader {
-    font-family: 'Newsreader', serif;
-}
