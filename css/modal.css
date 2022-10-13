@@ -1,4 +1,4 @@
-.modal{
+.wrapper #modal {
     position: fixed;
     top:0;
     left:0;
@@ -9,25 +9,25 @@
     z-index: -1;
 }
 
-.active{
+.wrapper #modal.active {
     opacity: 1;
     z-index: 1;
 }
 
-.modal-content{
+.wrapper #modal .modal-content {
     display: flex;
     flex-direction: column;
     gap:20px;
     width: 35vw;
-    margin: 15vh auto;
-    padding-bottom: 20px;
+    margin: 8vh auto;
+    padding-bottom: 22px;
     background-color: white;
-    box-shadow: 0.5px 0.5px 10px rgb(54, 54, 54);
+    box-shadow: 0.5px 0.5px 5px rgb(54, 54, 54);
     border-radius: 8px;
     
 }
 
-.modal-header{
+.wrapper #modal .modal-content .modal-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,27 +40,27 @@
 }
 
 
-.modal-close {
+.wrapper #modal .modal-content .modal-header .modal-close {
     font-size: 2rem;
     color: #c795e0;
     cursor: pointer;
 }
 
 
-.modal-close:hover{
+.wrapper #modal .modal-content .modal-header .modal-close:hover {
     color: #FFF;
 }
 
-.modal-form{
+.wrapper #modal .modal-content .modal-form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 20px;
-    padding: 0 20px;
+    gap: 25px;
+    padding: 0 25px;
 }
 
-.modal-field{
+.wrapper #modal .modal-content .modal-form .modal-field {
     height: 60px;
     outline-style: none;
     border-style: none;
@@ -69,23 +69,26 @@
     font-size:1rem;
 }
 
-.textarea {
-    min-height: 200px;
-}
 
-.modal-field:focus{
+.wrapper #modal .modal-content .modal-form .modal-field:focus {
     border: 2px solid #000;
 }
 
-.modal-field::placeholder{
+.wrapper #modal .modal-content .modal-form .modal-field::placeholder {
     color: #000;
     font-size: 1.2rem;
+    
 }
 
-.modal-submit-btn {
+.wrapper #modal .modal-content .modal-form .textarea {
+    min-height: 200px;
+}
+
+.wrapper #modal .modal-content .modal-form .modal-submit-btn {
     font-size: 1rem;
     border: none;
     color: #FFF;
+    font-size: 1.5rem;
     background-color: #2937f0;
     font-family: 'Mulish', sans-serif;
     padding: 1.2rem;
@@ -93,6 +96,6 @@
     cursor: pointer;   
 }
 
-.modal-submit-btn:hover {
+.wrapper #modal .modal-content .modal-form .modal-submit-btn:hover {
     background-color: #1623d3;
 }

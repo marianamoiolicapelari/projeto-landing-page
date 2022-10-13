@@ -40,10 +40,10 @@
             </div>
         </div>
 
-        <div class="modal" id="modal">
+        <div id="modal">
             <div class="modal-content">
                 <header class="modal-header">
-                    <h2>Send feedback</h2>                 
+                    <h2>Send feedback</h2>
                     <i class="modal-close fa-solid fa-xmark"></i>
                 </header>
                 <form id="form" class="modal-form">
@@ -53,7 +53,7 @@
                     <input type="text" id="phone" class="modal-field" placeholder="Phone number" required>
                     <input type="textarea" id="message" class="modal-field textarea" placeholder="Message" required>
                     <button type="submit" id="modal-submit-btn" class="modal-submit-btn">Submit</button>
-                </form>                
+                </form>
             </div>
         </div>
 
@@ -77,10 +77,16 @@
                     </a>
                 </div>
             </div>
-            <div class="main-right">
-                <video class="main-right-mp4" src="./assets/img/demo-screen.mp4" type="video/mp4"></video>
-                <img class="main-right-img" src="./assets/img/portrait_black.png" alt="">
-                <div class="main-right-circle"></div>
+            <div class="main-rigth">
+                <div class="main-rigth-circle">
+                    <div class="circle"></div>
+                </div>
+                <div class="main-rigth-phone">
+                    <video autoplay loop class="main-rigth-mp4">
+                        <source src="./assets/img/demo-screen.mp4" type="video/mp4">
+                    </video>
+                    <img class="main-rigth-img" src="./assets/img/portrait_black.png" alt="">
+                </div>
             </div>
         </div>
 
@@ -94,9 +100,20 @@
 
         <div id="features">
             <div class="features-itens">
+                <div class="features-itens-circle">
+                    <div class="circle"></div>
+                </div>
+                <div class="features-itens-phone">
+                    <video autoplay loop class="features-itens-mp4">
+                        <source src="./assets/img/demo-screen.mp4" type="video/mp4">
+                    </video>
+                    <img class="features-itens-img" src="./assets/img/portrait_black.png" alt="">
+                </div>
+            </div>
+            <!-- <div class="features-itens">
                 <video class="features-mp4" src="./assets/img/demo-screen.mp4" type="video/mp4"></video>
                 <img class="features-img" src="./assets/img/portrait_black.png" alt="...">
-            </div>
+            </div> -->
 
             <div class="features-information">
                 <div class="features-information-itens">
@@ -184,7 +201,7 @@
             </div>
         </div>
     </div>
-    
+
     <script src="https://kit.fontawesome.com/aa1aa89619.js" crossorigin="anonymous"></script>
     <script src="./js/script.js"></script>
 </body>
