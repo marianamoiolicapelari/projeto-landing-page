@@ -10,8 +10,15 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Kanit&family=Mulish:wght@300;500;600;700&family=Newsreader:opsz,wght@6..72,600&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/modal.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/download.css">
+    <link rel="stylesheet" href="./css/features.css">
+    <link rel="stylesheet" href="./css/section-1.css">
+    <link rel="stylesheet" href="./css/section-2.css">
+    <link rel="stylesheet" href="./css/section-3.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <link rel="icon" type="imagem/x-icon" href="./assets/favicon.ico" />
     <title>New Age - Start Bootstrap Theme</title>
 </head>
@@ -21,7 +28,7 @@
         <div id="navbar">
             <div class="navbar-main">
                 <div class="navbar-left">
-                    <a>Start Bootstrap</a>
+                    <a class="navbar-left-link" href="#">Start Bootstrap</a>
                 </div>
 
                 <div class="navbar-rigth">
@@ -44,7 +51,7 @@
             <div class="modal-content">
                 <header class="modal-header">
                     <h2>Send feedback</h2>
-                    <i class="modal-close fa-solid fa-xmark"></i>
+                    <i id="modal-close" class="modal-close fa-solid fa-xmark"></i>
                 </header>
                 <form id="form" class="modal-form">
                     <input type="text" id="full-name" data-index="new" class="modal-field" placeholder="Full name"
