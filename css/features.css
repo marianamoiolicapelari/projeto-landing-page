@@ -72,10 +72,9 @@
     color: #6c757d;
 }
 
-.wrapper #features .features-information .color-icon {
+.wrapper #features .features-information svg {
     color: #9f1ae2;
     font-size: 4.5rem;
-    background: -webkit-linear-gradient(45deg, #2937f0, #9f1ae2);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* background: -webkit-linear-gradient(45deg, #2937f0, #9f1ae2); */
+   
 }
