@@ -48,13 +48,11 @@
     position: absolute;
 }
 
-
 .wrapper #features .features-information {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
-
 
 .wrapper #features .features-information .features-information-itens {
     max-width: 420px;
