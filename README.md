@@ -16,7 +16,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 Esse projeto foi elaborado para desktop. </br>
 Para acessar basta clicar no link abaixo:
 
-.
+https://landing-page-mmc.netlify.app/
 
 ## 📝 Licença
 
