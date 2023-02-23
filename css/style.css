@@ -19,6 +19,7 @@ body {
     font-family: 'Mulish', sans-serif;
     padding: 0.5rem 12rem;
     box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+    z-index: 2;
 }
 
 .wrapper #navbar .navbar-main {
@@ -89,7 +90,7 @@ body {
 .wrapper #main .main-left {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 40%;
     margin-right: 6rem;
    
 }
@@ -97,13 +98,13 @@ body {
 .wrapper #main .main-left .main-left-title h1 {
     font-family: 'Newsreader', serif;
     color: #212529;
-    font-size: 6rem;
+    font-size: 4rem;
 
 }
 
 .wrapper #main .main-left .main-left-title p {
     font-family: 'Mulish', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #6c757d;
     margin-bottom: 5rem;
 }
@@ -113,8 +114,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
-   
+    width: 60%;
 }
 
 .wrapper #main .main-rigth-phone {
@@ -125,17 +125,17 @@ body {
 }
 
 .main-rigth-circle {
-    width: 500px;
-    height: 500px;
+    width: 24rem;
+    height: 24rem;
 }
 
 .wrapper #main .main-rigth .main-rigth-mp4 {
-    width: 16rem;
+    width: 14rem;
     border-radius: 35px;
 }
 
 .wrapper #main .main-rigth .main-rigth-img {
-    width: 18rem;
+    width: 16rem;
     position: absolute;
  
 
@@ -167,15 +167,17 @@ body {
     flex-direction: column;
     align-items: center;
     background: linear-gradient(45deg, #2937f0, #9f1ae2);
-    padding: 5rem 27rem;
+    padding: 5rem;
+   
 
 }
 
 .wrapper #first-section .first-section-text {
     font-family: 'Newsreader', serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #FFF;
     text-align: center;
+    width: 65%;
 }
 
 .wrapper #first-section .first-section-img {
@@ -190,25 +192,28 @@ body {
     justify-content: space-between;
     background-color: #FFF;
     padding: 12rem;
+
 }
 
 .wrapper #features .features-itens {
     display: flex;
-    width: 50vh;
+    width: 50%;
+    background-color: #012;
 }
 
 .wrapper #features .features-itens .features-mp4 {
-    width: 18rem;
+    width: 16rem;
 }
 
 .wrapper #features .features-itens .features-img {
-    width: 20rem;
+    width: 18rem;
 }
 
 .wrapper #features .features-information {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    width: 50%;
+    background-color: #055;
 }
 
 
