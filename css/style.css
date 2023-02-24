@@ -292,18 +292,18 @@ body {
 
 .wrapper #second-section .second-section-text h5 {
     font-family: 'Newsreader', serif;
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin-bottom: 0;
 }
 
 .wrapper #second-section .second-section-text p {
     font-family: 'Mulish', sans-serif;
     color: #6c757d;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .wrapper #second-section .second-section-image .second-section-image-img {
-    width: 40rem;
+    width: 25rem;
     border-radius: 50%;
 }
 
