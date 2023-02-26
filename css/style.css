@@ -191,7 +191,7 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #FFF;
-    padding: 12rem;
+    padding: 6rem 12rem;
 
 }
 
@@ -209,13 +209,6 @@ body {
     width: 18rem;
 }
 
-.wrapper #features .features-information {
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-    background-color: #055;
-}
-
 
 .wrapper #features .features-itens {
     display: flex;
@@ -229,8 +222,8 @@ body {
     position: absolute;
     background: linear-gradient(45deg, #2937f0, #9f1ae2);
     border-radius: 50%;
-    width: 30rem;
-    height: 30rem;
+    width: 25rem;
+    height: 25rem;
 }
 
 .wrapper #features .features-itens .features-itens-phone {
@@ -241,18 +234,24 @@ body {
 }
 
 .wrapper #features .features-itens .features-itens-mp4 {
-    width: 16rem;
+    width: 12rem;
     border-radius: 35px;
 }
 
 .wrapper #features .features-itens .features-itens-img {
-    width: 18rem;
+    width: 14rem;
     position: absolute;
 }
 
+.wrapper #features .features-information {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    background-color: #055;
+}
 
 .wrapper #features .features-information .features-information-itens {
-    max-width: 420px;
+    
     text-align: center;
 
 }
