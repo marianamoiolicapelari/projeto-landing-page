@@ -286,12 +286,13 @@ body {
 }
 
 .wrapper #second-section .second-section-text {
-    margin-right: 10rem;
+    width: 45%;
+    margin-right: 8rem;
 }
 
 .wrapper #second-section .second-section-text h5 {
     font-family: 'Newsreader', serif;
-    font-size: 3.5rem;
+    font-size: 3.8rem;
     margin-bottom: 0;
 }
 
@@ -302,7 +303,7 @@ body {
 }
 
 .wrapper #second-section .second-section-image .second-section-image-img {
-    width: 25rem;
+    width: 20rem;
     border-radius: 50%;
 }
 
