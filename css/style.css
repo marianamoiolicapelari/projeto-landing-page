@@ -201,11 +201,10 @@ body {
     justify-content: center;
     position: relative;
     width: 50%;
-    background-color: #012;
 }
 
 .wrapper #features .features-itens .features-mp4 {
-    width: 16rem;
+    width: 18rem;
 }
 
 .wrapper #features .features-itens .features-img {
