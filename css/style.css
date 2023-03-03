@@ -174,6 +174,7 @@ body {
 
 .wrapper #features {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     background-color: #FFF;
     padding: 4rem 8rem;
@@ -184,15 +185,7 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-    width: 50%;
-}
-
-.wrapper #features .features-itens .features-mp4 {
-    width: 18rem;
-}
-
-.wrapper #features .features-itens .features-img {
-    width: 18rem;
+    width: 40%;
 }
 
 .wrapper #features .features-itens .features-itens-circle {
@@ -224,8 +217,8 @@ body {
 .wrapper #features .features-information {
     display: flex;
     flex-wrap: wrap;
-    width: 50%;
-    padding: 1rem;
+    justify-content: flex-end;
+    width: 60%;
 }
 
 .wrapper #features .features-information .features-information-itens {
@@ -233,24 +226,25 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    width: 50%;   
+    width: 30%;  
+    padding: 1rem 2.5rem; 
 }
 
 .wrapper #features .features-information h3 {
     font-family: 'Kanit', sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     margin-bottom: 0rem;
 }
 
 .wrapper #features .features-information p {
     font-family: 'Mulish', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #6c757d;
 }
 
 .wrapper #features .features-information .color-icon {
     color: #9f1ae2;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 /*------------------------------------------------*/
